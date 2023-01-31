@@ -20,53 +20,69 @@
 
   <div class="row">
 
-    <div class="col bg-primary border">
-      <center>
-        <h5 id="marinus">MARINUS</h5>
-  
-        <h6 class="frase">Bem vindo ao Marinus!</h6>
-      </center>
+    
+<!-- IMAGEM E DESCRIÇÃO -->
+    <div class="col border" id="descrição">
+        <img src="peixes.png" id="peixes">
       
+      <p class="frase">A new way to admire marine life</p>
+    </div>
+
+
+<!-- ÁREA DE LOGIN -->
+    <div class="col bg-primary border">
+            
       <div class="container bg-white border" id="interior">
+
+<!-- NOME DO SITE -->
+          <br>
+        <center >
+          <h3 id="marinus">MARINUS</h3>
+          <h6>Welcome to Marinus!</h6>
+        </center>
         
-        <label>Usuário/Email:</label><br>
+          <br>
+
+<!-- INSERÇÃO DE DADOS -->
+        <label>User name or Email:</label><br>
         <input type="text">
         
           <br><br>
         
-        <label>Senha:</label><br>
+        <label>Password:</label><br>
         <input type="password"><br>
 
-        <div class="row">
-          <div class="col">
-            <input type="checkbox"> <font>Ver senha</font>
-          </div>
-          <div class="col">
-            <a href="">Recuperar senha</a>
-          </div>
+<!-- RECUPERAR SENHA -->
+        <div id="recsenha">
+         <a href="" class="link" >Forgot password?</a>
         </div>
         
           <br><br>
-        
-        <button onclick="">Entrar</button>
-        
+
+<!-- BOTÃO LOGIN -->
+        <button type="button" onclick="">Sing in</button>
+        <!--<div class="d-grid">
+          <button type="button" class="btn btn-primary btn-block" onclick="">Sing in</button>
+        </div>-->
           <br><br>
 
-        ou
+<!-- SEPARADOR E LOGIN COM GOOGLE -->
+        <div class="divider d-flex align-items-center my-4">
+          <p class="text-center fw-bold mx-3 mb-0" id="or">Or</p>
+        </div>
 
         <div id="google">
-          <i class="fab fa-google"></i> Entrar com Google
+          <i class="fab fa-google"></i> Sing in with Google
         </div>
+        
+          <br>
+
+<!-- NOVO CADASTRO -->
+        <p>New in Marinus? <a href="" class="link">Create Account</a></p>
         
       </div>
     </div>
 
-<!-- IMAGEM E DESCRIÇÃO -->
-    <div class="col bg-info">
-        <img src="peixes.png" id="peixes">
-      
-      <p class="frase">Uma nova forma de se admirar a vida marinha</p>
-    </div>
     
   </div>
   
