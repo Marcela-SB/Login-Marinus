@@ -7,7 +7,11 @@
   <title>Login</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 
+<!-- ICON DA ABA -->
   <link rel="shortcut icon" type="imagex/png" href="user-regular.svg">
+
+<!-- ICONS -->
+  <script src="https://kit.fontawesome.com/e7b894af2c.js" crossorigin="anonymous"></script>
   
   <!-- Latest compiled and minified CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -20,14 +24,12 @@
 
   <div class="row">
 
-    
 <!-- IMAGEM E DESCRIÇÃO -->
     <div class="col border" id="descrição">
         <img src="peixes.png" id="peixes">
       
       <p class="frase">A new way to admire marine life</p>
     </div>
-
 
 <!-- ÁREA DE LOGIN -->
     <div class="col bg-primary border">
@@ -59,23 +61,20 @@
            <a href="" class="link" >Forgot password?</a>
           </div>
           
-            <br><br>
+            <br>
   
 <!-- BOTÃO LOGIN -->
-          <button type="button" onclick="">Sing in</button>
-          <!--<div class="d-grid">
-            <button type="button" class="btn btn-primary btn-block" onclick="">Sing in</button>
-          </div>-->
-            <br><br>
+          <input type="submit" id="btn" value="Sing in" onclick="">
+            <br>
   
 <!-- SEPARADOR E LOGIN COM GOOGLE -->
           <div class="divider d-flex align-items-center my-4">
             <p class="text-center fw-bold mx-3 mb-0" id="or">Or</p>
           </div>
   
-          <div id="google">
-            <i class="fab fa-google"></i> Sing in with Google
-          </div>
+          <button id="google">
+            <i class="fa-brands fa-google" id="icon-G"></i> Sing in with Google
+          </button>
           
             <br>
   
@@ -91,13 +90,7 @@
   </div>
   
   <script src="script.js"></script>
-
- <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  
 </body>
 
 </html>
